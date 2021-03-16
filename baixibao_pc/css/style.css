@@ -1,0 +1,623 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+ul,li,dl,dd,ol,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+/*页眉导航*/
+.head{
+	background: #fff;
+	overflow: hidden;
+}
+.nav{
+	width: 994px;
+	/*height: 100px;*/
+	overflow: hidden;
+	margin: 0 auto;
+}
+.nav a img{
+	float: left;
+	display: block;
+	margin-top: 20px;
+}
+.topBoxlist{
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 100px;
+}
+.topBoxlist a{
+	padding:53px  21px;
+}
+.topBoxlist a:nth-child(1){
+	margin-left: 10px;
+}
+.topBoxlist a:hover{
+	color: #fff;
+	background: #2577DE;
+}
+.topLogin{
+	display: block;
+	float: right;
+	margin-top: 52px;
+	margin-right: 50px;
+	font-size: 12px;
+	line-height: 25px;
+}
+.topLogin span{
+	float: left;
+	margin-right: 25px;
+}
+.topLogin span:nth-child(2){
+	margin-right: 0;
+}
+.topLogin img{
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+.topLogin span a{
+	color: #0c5ebc;
+}
+.topLogin span:nth-child(2) a{
+	color: #e94423;
+}
+/*banner轮播图*/
+.banner{
+	overflow: hidden;
+	margin: 0 auto;
+}
+.bannerImg{
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	top: 0;
+	/*margin-left: -960px;
+	background: #0C5EBC;*/
+	width: 1920px;
+	height: 491px;
+}
+#imglist{
+	overflow: hidden;
+	float: left;
+	height: 491px;
+	width: 15364px;
+}
+#imglist li{
+	float: left;
+}
+.banner ol{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	/*min-width: 80%;*/
+	/*float: left;*/
+	top: 195.5px;
+}
+.banner ol li:nth-child(1){
+	display: none;
+	float: left;
+	margin-left: 0;
+}
+.banner ol li:nth-child(2){
+	display: none;
+	float: right;
+	margin-right: 0;
+}
+.bannerImg:hover ol li{
+	display: block;
+}
+.banner div{
+	position: relative;
+	float: left;
+	width: 100%;
+	bottom: 10%;
+	/* background-color: red; */
+	overflow: hidden;
+}
+.banner dl{
+	display: block;
+	width: 256px;
+	/* height: 80px; */
+	margin: 0 auto;
+	/* background: black; */
+}
+.banner dl dd{
+	display: block;
+	float: left;
+	left: 37%;
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background: #fff;
+}
+.banner dl dd:nth-child(1){
+	margin-left: 0;
+}
+.banner .current{
+	background: #E94423;
+	width: 43px;
+	cursor: pointer;
+}
+.banner ol{
+	display: block;
+	width: 100%;
+	height: 90px;
+}
+.banner ol li{
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+#left{
+	float: left;
+	left: 0px;
+	background: url('left.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#right{
+	float: right;
+	right: 0px;
+	background: url('right.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*main*/
+.main_nav{
+	overflow: hidden;
+	background: #000;
+}
+.nav_middle{
+	width: 994px;
+	height: 108px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.nav_middle ul{
+	overflow: hidden;
+	margin: 0 auto;
+}
+.nav_middle ul li{
+	float: left;
+	display: block;
+	width: 165px;
+	height: 108px;
+}
+.nav_middle em{
+	display: block;
+	width: 38px;
+	height: 36px;
+	background-image: url(../images/xiaodaohangImg.png);
+	background-position-x: -30px;
+}
+.nav_middle ul li:nth-child(2) em{
+	background-position-x: -130px;
+}
+.nav_middle ul li:nth-child(3) em{
+	background-position-x: -230px;
+}
+.nav_middle ul li:nth-child(4) em{
+	background-position-x: -330px;
+}
+.nav_middle ul li:nth-child(5) em{
+	background-position-x: -430px;
+}
+.nav_middle ul li:nth-child(6) em{
+	background-position-x: -530px;
+}
+.nav_middle a{
+	overflow: hidden;
+	display: block;
+	width: 38px;
+	padding-left: 63.5px;
+	padding-right: 63.5px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 19px;
+	color: #fff;
+}
+.nav_middle p{
+	display: block;
+	text-align: center;
+}
+/*新闻区*/
+.news{
+	overflow: hidden;
+	width: 994px;
+	margin: 0 auto;
+}
+.news h2{
+	font-size: #000;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 25px;
+	text-indent: 21px;
+	margin-top: 40px;
+	border-left: 6px #2577de solid;
+}
+.company_news{
+	float: left;
+	width: 353px;
+}
+.game_news{
+	float: left;
+	margin-left: 24px;
+}
+.company_title{
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 25px;
+	color: #5e5c5c;
+	border-bottom: dashed 1px #5E5C5C;
+}
+.company_title h3{
+	float: left;
+}
+.company_title a{
+	display: block;
+	margin-top: 17px;
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	border: 1px #999 solid;
+	text-align: center;
+	line-height: 20px;
+	float: right;
+}
+.company_title p{
+	display: block;
+	font-size:12px;
+}
+.company_news .newslist{
+	float: left;
+	font-size: 12px;
+	line-height: 25px;
+	/*word-spacing:-18px*/
+	 letter-spacing: -1px;
+}
+.company_news .riqi{
+	display: block;
+	float: right;
+ 	letter-spacing: -1px;
+	font-size: 12px;
+	line-height: 25px;
+}
+.newslist:hover{
+	font-weight: bold;
+}
+.samll_banner{
+	position: relative;
+	overflow: hidden;
+	float: right;
+	width: 240px;
+	height: 147px;
+	background: #000;
+	margin-top: 52px;
+}
+.box{
+	overflow: hidden;
+}
+.box .danqian{
+	background: #0C5EBC;
+	cursor: pointer;
+}
+.samll_banner .box ul{
+	overflow: hidden;
+	float: left;
+}
+.box ul{
+	overflow: hidden;
+	float: left;
+	width: 480px;
+}
+.box ul li{
+	float: left;
+}
+.box ol{
+	display: block;
+	position: absolute;
+	bottom: 8px;
+	margin-left: 190px;
+}
+.box ol li{
+	display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	border-radius: 5px;
+	margin-left: 10px;
+	background: #fff;
+}
+.beijing{
+	overflow: hidden;
+	background: #dedede;
+}
+.HotGame_title{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 994px;
+}
+.HotGame_title span{
+	overflow: hidden;
+	float: right;
+	margin-top: 45px;
+	margin-right: 20px;
+}
+.HotGame_title h3{
+	float: left;
+	font-size: #000;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 25px;
+	text-indent: 21px;
+	margin-top: 40px;
+	border-left: 6px #2577de solid;
+}
+.HotGame_title span a{
+	display: block;
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px #999 solid;
+	text-align: center;
+	line-height: 20px;
+}
+.HotGame_title span a:nth-child(1){
+	float: left;
+	margin-right: 10px;
+}
+.HotGame_title span a:nth-child(2){
+	float: right;
+}
+.beijing .content{
+	display: block;
+	overflow: hidden;
+	width: 994px;
+	margin-left:100px;
+	margin: 0 auto;
+}
+.beijing .content ul{
+	overflow: hidden;
+}
+.beijing .content ul:nth-child(2){
+	margin-top: 3px;
+}
+.content ul li img{
+	display: block;
+	cursor:pointer;
+}
+.content ul li{
+	float: left;
+	overflow: hidden;
+	margin-left: 18px;
+}
+.content ul li .Games_Shows{
+	overflow: hidden;
+	display: block;
+	margin-top: 0px;
+	width: 316px;
+	height: 67px;
+	background: #fff;
+	margin-left: 3px;
+}
+.content ul li:nth-child(1){
+	margin-left: 0;
+}
+.content em{
+	float: left;
+	font-style:normal;
+	font-size: 15px;
+	line-height: 25px;
+	color: #000;
+	margin: 12px 0 0 10px;
+}
+.content .Games_Shows img{
+	float: right;
+	margin: 13px 11px;
+}
+.content span{
+	overflow: hidden;
+	display: block;
+}
+.content .Official_website{
+	overflow: hidden;
+	margin-top:-15px;
+}
+.content .Official_website em{
+	float: left;
+	font-size: 12px;
+	line-height: 15px;
+	color: #7b7b7b;
+}
+.Official_website a{
+	display: block;
+	float: right;
+	color: #7b7b7b;
+	text-align: center;
+	font-size: 12px;
+	line-height: 21px;
+	width: 68px;
+	height: 21px;
+	border-radius: 10px;
+	border: 1px #7b7b7b solid;
+	margin: 5px 10px;
+}
+.Official_website a:hover{
+	background: #2577de;
+	color: #fff;
+}
+.content{
+	padding-bottom: 47px;
+}
+.beijing_banner{
+	height: 309px;
+	display: block;
+	margin: 0 auto;
+	background-image: url(../images/quanqiuyunying.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+/*页脚版权*/
+.footer{
+	overflow: hidden;
+}
+.banquan{
+	width: 994px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.copyright{
+	font-size: 12px;
+	line-height: 15px;
+	color: #666;
+	float: left;
+	margin: 60px 0 0 16px;
+}
+.banquan span{
+	float: left;
+	margin: 75px 0 75px 0;
+}
+/*宣传视频*/
+.Video{
+	overflow: hidden;
+	margin: 0 auto;
+}
+.Video .advertising_video{
+	display: block;
+	position: relative;
+	float: left;
+	width: 25%;
+	height: 360px;
+	background-image: url("../images/xuanchuangshiping1.png");
+}
+.Video .advertising_video:nth-child(2){
+	background-image: url("../images/xuanchuangshiping2.jpg");
+}
+.Video .advertising_video:nth-child(3){
+	background-image: url("../images/xuanchuangshiping3.jpg");
+}
+.Video .advertising_video:nth-child(4){
+	background-image: url("../images/xuanchuangshiping4.jpg");
+}
+.advertising_video em{
+	display: block;
+	width: 100%;
+	height: 360px;
+	background: #2e4350;
+	opacity:0.8;
+	font-weight: bold;
+}
+.advertising_video span{
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 20px;
+	line-height: 34px;
+	font-style: normal;
+	text-align: center;
+	color: #fff;
+	margin-top: 258px;
+}
+.advertising_video a{
+	display: block;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	background-image: url("../images/bofang.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+/*游戏列表*/
+.gamelist{
+	background: #dedede;
+	overflow: hidden;
+} 
+.gamelist2{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 994px;
+}
+.gamelist2 h3{
+	float: left;
+	font-size: #000;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 25px;
+	text-indent: 21px;
+	margin-top: 40px;
+	border-left: 6px #2577de solid;
+}
+.list{
+	width: 994px;
+	height: 360px;
+	background: #fff;
+	margin:0 auto 80px auto;
+}
+.list_top{
+	overflow: hidden;
+	border-bottom: 1px #999 solid;
+}
+.Red_client{
+	float: left;
+	width: 215px;
+	height: 272px;
+	border-right: 1px #999999 solid;
+}
+.Red_client dl{
+	margin-left: 34px;
+}
+.Red_client dt{
+	color: #c13d1a;
+	font-size: 14px;
+	line-height: 60px;
+}
+.Red_client dd a{
+	font-size: 8px;
+	color: #666;
+	margin-left: 4px;
+}
+.mobile_game{
+	width: 287px;
+	height: 272px;
+}
+.mobile_game dl{
+	float: left;
+}
+.mobile_game dl:nth-child(2){
+	float: left;
+	margin-top: 60px;
+}
+.webgame{
+	border-right: none;
+}
+.list_bottom dl{
+	float: right;
+	font-size: 8px;
+	color: #666;
+	margin: 35px 26px;
+}
+.zuixin,.remen{
+	float: left;
+	margin-left: 28px;
+}
+.list_bottom a{
+	margin-left: 4px;
+}
+.list a:hover{
+	color: #000;
+	font-weight: bold;
+}
